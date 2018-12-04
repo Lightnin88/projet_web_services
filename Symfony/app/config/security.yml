@@ -1,0 +1,24 @@
+security:
+    encoders:
+        AppBundle\Entity\User:
+            algorithm: bcrypt
+
+    providers:
+        our_db_provider:
+            entity:
+                class: AppBundle:User
+                property: username
+
+
+    firewalls:
+        #dev:
+         #   pattern: ^/(_(profiler|wdt)|css|images|js)/
+          #  security: false
+        main:
+            anonymous: ~
+            form_login:
+                login_path: login
+                check_path: login
+           # guard:
+            #    authenticators:
+             #       - AppBundle\Security\LoginFormAuthenticator

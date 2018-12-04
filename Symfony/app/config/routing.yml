@@ -1,0 +1,15 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+articles:
+    type: rest
+    resource: '@AppBundle/Controller/ArticleController.php'
+
+vendeurs:
+    type: rest
+    resource: '@AppBundle/Controller/VendeurController.php'
+
+login:
+    path:     /login
+    defaults: { _controller: AppBundle:Security:login }

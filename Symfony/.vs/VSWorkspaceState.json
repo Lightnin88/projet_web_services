@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\config",
+    "\\app\\Resources",
+    "\\src",
+    "\\src\\AppBundle",
+    "\\src\\AppBundle\\Entity",
+    "\\src\\AppBundle\\Security",
+    "\\src\\AppBundle\\Serializer\\Handler",
+    "\\vendor\\friendsofsymfony\\user-bundle"
+  ],
+  "SelectedNode": "\\src\\AppBundle\\Entity\\User.php",
+  "PreviewInSolutionExplorer": false
+}
